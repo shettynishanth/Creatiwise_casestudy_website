@@ -1,0 +1,111 @@
+/* Full‑width wrapper for both sections */
+.hero-section {
+  background-color: #010208;
+  padding: 176px 100px;
+  box-sizing: border-box;
+  text-align: center;    /* center textual content by default */
+}
+
+/* Constrain children to 1240px and center them */
+.hero-top,
+.features-section {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+/* --- Hero Top --- */
+.hero-top {
+  height: 274px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 17px;
+}
+
+.hero-top .line {
+  display: flex;
+  justify-content: center; /* center each line’s items */
+  align-items: center;
+  gap: 17px;
+}
+
+.hero-top .line h1 {
+  margin: 0;
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.hero-top .line img {
+  width: 128px;
+  height: 64px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+/* --- Features Section --- */
+.features-section {
+  height: 72px;
+  display: flex;
+  justify-content: center; /* center the row of boxes */
+  gap: 32px;
+  margin-top: 40px;        /* space from hero-top */
+}
+
+.feature-box {
+  width: 716px;
+  height: 64px;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #010208; /* same as parent */
+}
+
+.feature-box img {
+  width: 28px;
+  height: 28px;
+  margin-top: 2px;
+  margin-left: 2px;
+  object-fit: cover;
+}
+
+.feature-box h2 img {
+  margin: 0;
+  line-height: 80px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: #fff;
+    width: 150px;
+    height: 18;
+    top: 6.68px;
+    left: 35.36px;
+
+}
+
+.description-box {
+  width: 692px;
+  height: 72px;
+  display: flex;
+  align-items: left;
+  
+}
+
+.description-box p {
+  margin: 0;
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-weight: 200; */
+  font-size: 10px;
+  color: #fff;
+  font-family: Poppins;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+
+}

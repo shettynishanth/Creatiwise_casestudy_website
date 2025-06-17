@@ -1,0 +1,134 @@
+.testimonial-section {
+  width: 100%;
+  margin: 0 auto;
+  padding: 64px 100px;
+  box-sizing: border-box;
+  background-color: #010208;
+  color: white;
+  font-family: 'Syne', sans-serif;
+}
+
+/* Header */
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.testimonial-header img {
+  width: 32px;
+  height: 32px;
+}
+
+.testimonial-header h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+}
+
+/* Main Testimonial Content */
+.testimonial-content {
+  width: 1240px;
+  height: 264px;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* Left Side */
+.testimonial-left {
+  width: 498px;
+  height: 176px;
+  display: flex;
+  align-items: center;
+  gap: 16px; /* space between image and text */
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: left;
+  margin-left: 90px;
+}
+
+.testimonial-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+
+.testimonial-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.testimonial-text .name {
+  font-family: 'Syne';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.testimonial-text .company {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  margin: 0;
+}
+
+
+/* Right Side */
+.testimonial-right {
+  position: relative;
+  width: 710px;
+  height: 200px;
+  border-radius: 24px;
+  background-color: transparent; /* Light background for contrast */
+  padding: 32px;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Syne';
+  text-align: left;
+}
+
+.testimonial-right .quote-icon {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 48px;
+  height: 85px;
+  transform: rotate(180deg);
+}
+
+.testimonial-text {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0%;
+  z-index: 2;
+  position: relative;
+  
+}
+
+/* Nav Buttons */
+.testimonial-nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.nav-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background: rgba(203, 203, 203, 1);
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

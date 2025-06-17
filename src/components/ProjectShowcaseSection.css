@@ -1,0 +1,146 @@
+.project-showcase-section {
+  width: 100%;
+  height:2,751px ;
+  padding: 64px 100px;
+  background-color: #010208;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Syne';
+  /* margin: 0 auto; */
+}
+
+/* Header */
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-left img {
+  width: 32px;
+  height: 32px;
+}
+
+.header-left h3 {
+  font-family: 'Syne';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.view-all {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Frame Container */
+.project-frame-container {
+  width: 1240px;
+  height: 1543px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Individual Frame */
+.project-frame {
+  width: 1240px;
+  height: 493px;
+  display: flex;
+  gap: 32px;
+  background: rgba(203, 203, 203, 0.48);
+
+  border-radius: 40px;
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+/* Left - Image */
+.frame-image img {
+  width: 572px;
+  height: 429px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+/* Right - Content */
+.frame-content {
+  width: 572px;
+  height: 429px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  text-align: left;
+  position: relative;
+}
+
+
+.frame-content h3 {
+font-family: 'Syne';
+font-weight: 600;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.frame-content p {
+font-family: 'Poppins';
+font-weight: 400;
+font-size: 18px;
+letter-spacing: 0%;
+
+}
+
+/* Small Buttons */
+.frame-tags {
+  display: flex;
+  gap: 16px;
+}
+
+.frame-tags button {
+width: 91;
+height: 30;
+padding-top: 8px;
+padding-right: 24px;
+padding-bottom: 8px;
+padding-left: 24px;
+gap: 10px;
+border: 1px solid rgba(255, 255, 255, 1);
+border-radius: 100px;
+ background-color: transparent;
+ color: white;
+
+}
+
+/* Big Button */
+.view-project-btn {
+    margin-top: 140px;
+  width: 184px;
+  height: 56px; /* Add px unit */
+  padding: 16px 32px;
+  border-radius: 100px;
+  border: 1px solid white; /* Or desired color */
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+.middle-highlight-box {
+border-radius: 500px;
+  width: 209px;
+  height: 165px;
+  background: rgba(255, 128, 74, 1);
+  /* border-radius: 16px; */
+  margin: 0 auto; /* center it horizontally */
+  /* z-index: 10; */
+}
